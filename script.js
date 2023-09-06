@@ -1,16 +1,16 @@
-let score =0
+let score =0;
 
-letdocument.getElementById('scoreHTML')
+let scoreHTML = document.getElementById('score');
 
-function increaese(){
-    score =score+1
-    document.getElementById('score').innerHTML
+function increase(){
+    score =score+1;
+    scoreHTML.innerHTML=score;
 
 
 }
 
-
-
-
-
+function welcome(){
+    let name = prompt("ادخل اسمك")
+    alert('hi '+ name)
+}
 
